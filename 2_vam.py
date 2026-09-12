@@ -83,3 +83,15 @@ if __name__ == "__main__":
     original_costs = np.array(costs)
     total_cost = np.sum(allocated_matrix * original_costs)
     print(f"\nTotal Transportation Cost (VAM): {total_cost}")
+
+
+"""
+Output:
+
+VAM Final Allocation Matrix:
+[[  0. 300.   0.   0.]
+ [250.   0. 150.   0.]
+ [  0.  50. 250. 200.]]
+
+Total Transportation Cost (VAM): 2850.0
+"""

@@ -137,3 +137,11 @@ if __name__ == "__main__":
         print("Optimal Objective Value (Z):", z_opt)
     except ValueError as e:
         print("Error:", e)
+
+
+"""
+Output:
+
+Optimal Decision Variables (x): [0.4 1.8]
+Optimal Objective Value (Z): 3.400000000003274
+"""

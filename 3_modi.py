@@ -143,3 +143,33 @@ if __name__ == "__main__":
     
     final_cost = np.sum(optimal_allocation * np.array(costs))
     print(f"\nFinal Minimized Transportation Cost: {final_cost}")
+
+"""
+Output:
+
+Initial Allocation Matrix:
+[[250  50   0   0]
+ [  0 300 100   0]
+ [  0   0 300 200]]
+Initial Cost: 4400
+
+Iteration 1: Entering cell (1, 0) with penalty -6.0
+Iteration 2: Entering cell (2, 1) with penalty -1.0
+
+Optimal solution found after 2 iterations.
+
+Final Optimal Allocation Matrix:
+[[  0. 300.   0.   0.]
+ [250.   0. 150.   0.]
+ [  0.  50. 250. 200.]]
+
+Final Minimized Transportation Cost: 2850.0
+/ot% python -u "/home/aayush/Documents/ot/2_vam.py"
+VAM Final Allocation Matrix:
+[[  0. 300.   0.   0.]
+ [250.   0. 150.   0.]
+ [  0.  50. 250. 200.]]
+
+Total Transportation Cost (VAM): 2850.0
+
+"""
